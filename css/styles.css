@@ -221,7 +221,11 @@ h2 {
 
 /*Inicio estilos Envíos*/
 
-
+.texto-envios {
+    display: flex;
+    justify-content: center;
+    margin: 2% 20% 10% 20%;
+}
 
 /*Fin estilos Envíos*/
 
