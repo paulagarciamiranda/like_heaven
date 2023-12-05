@@ -39,7 +39,8 @@ ul {
 h2 {
     display: flex;
     justify-content: center;
-    padding: 4rem;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
 }
 
 .footer {
@@ -204,7 +205,7 @@ h2 {
 /*Inicio estilos Políticas de devolución*/
 
 .card-devolucion {
-    margin: 6rem;
+    padding: 0% 10% 5% 10%
 }
 
 .card-body {
