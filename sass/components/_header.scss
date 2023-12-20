@@ -1,3 +1,48 @@
+@import "../base/variables";
+@import "../base/maps";
+
+/*Estilos globales*/
+
+* {
+    font-family: 'Assistant', sans-serif;
+}
+
+a:hover {
+    color: $color-principal !important;
+    text-decoration: underline !important;
+}
+
+a:link {
+    color: $color-secundario;
+    text-decoration: none;
+}
+
+a:visited {
+    color: $color-principal
+}
+
+
+/*este no funciona*/
+a:active {
+    text-decoration: underline !important;
+}
+
+/*este no funciona*/
+
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+
+/*Fin estilos globales*/
+
 .navbar {
     height: 140px !important;
     padding: 1rem 4rem 1rem 4rem !important;

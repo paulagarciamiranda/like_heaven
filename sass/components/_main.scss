@@ -1,3 +1,7 @@
+@import "../base/variables";
+@import "../base/maps";
+
+
 /*Inicio estilos Home*/
 
 .carousel-inner {
@@ -17,8 +21,8 @@
 }
 
 .btn-outline-success {
-    background-color: #000000;
-    color: #ffff;
+    background-color: $color-principal;
+    color: $color-fondo;
 }
 
 .container-cards {
@@ -50,8 +54,8 @@
     margin: 2rem;
 
     .ver-mas {
-        background-color: #000000;
-        color: #ffff;
+        background-color: $color-principal;
+        color: $color-fondo;
         padding: 0.5rem;
     }
 }
@@ -115,8 +119,8 @@
 }
 
 .btn-enviar {
-    background-color: #000000;
-    color: #ffff;
+    background-color: $color-principal;
+    color: $color-fondo;
     margin-top: 2rem;
 }
 

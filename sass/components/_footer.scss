@@ -1,7 +1,10 @@
+@import "../base/variables";
+@import "../base/maps";
+
 .footer {
     left: 0px;
     bottom: 0px;
-    background-color: #f8f9fa;
+    background-color: $color-footer;
     padding: 2rem 4rem 2rem 4rem;
     column-count: 2;
     column-gap: 30%;
@@ -15,7 +18,7 @@
     }
 
     .texto-footer {
-        color: #00000081;
+        color: $color-secundario;
         font-size: 0.9rem;
     }
 }
