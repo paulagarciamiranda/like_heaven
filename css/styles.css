@@ -182,6 +182,10 @@ h2 {
 }
 
 /*Fin estilos Envíos*/
+.margenFoto {
+  margin: 2rem;
+}
+
 .footer {
   left: 0px;
   bottom: 0px;

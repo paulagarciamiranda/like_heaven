@@ -76,29 +76,78 @@
 
         <!--Inicio foto portada-->
 
-        <div class="card text-bg-dark">
+        <div class="card text-bg-dark" style="margin-left: 5rem;margin-right: 5rem;;">
             <img src="../img/portada1.jpg" alt="Vestido magenta">
             <div class="card-img-overlay">
                 <h2 class="card-title">NUEVA COLECCIÓN</h2>
             </div>
         </div>
 
+        <div class="row" style="margin-top: 2rem; margin-left: 5rem;margin-right: 5rem;;">
+            <div class="col-8">
+
+            </div>
+            <div class="col-4">
+                <input type="search" name="busquedadeprenda" placeholder="Buscar">
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 2rem; margin-left: 5rem;margin-right: 5rem;;">
+            <div class="col-8 text-right">
+                <h3 class=" text-right">Ordenar por:</h3>
+            </div>
+            <div class="col-4">
+                <select name="filtros" id="filtro">
+                    <option value="destacados">Destacados</option>
+                    <option value="ofertas">Ofertas</option>
+                    <option value="precio-descendente">Precio descendente</option>
+                    <option value="precio-ascendente">Precio ascendente</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 2rem; margin-left: 5rem;margin-right: 5rem;;">
+            <div class="col-3">
+                <aside>
+                    <h4>Categorías</h4>
+
+
+                    <input type="checkbox" name="categorias" id="tops">
+                    <span>Tops</span>
+                    <br />
+
+
+                    <input type="checkbox" name="categorias" id="bottoms">
+                    <span>Bottoms</span>
+                    <br />
+
+                    <input type="checkbox" name="categorias" id="accesorios">
+                    <span>Accesorios</span>
+                </aside>
+            </div>
+            <div class="col-3">
+                <img src="../img/1.jpeg" class="img-producto" alt="Blusa blanca">
+                <h4>Título del producto</h4>
+                <p>$00.000</p>
+            </div>
+            <div class="col-3">
+                <img src="../img/rojo.jpg" class="img-producto" alt="Vestido rojo de noche">
+                <h4>Título del producto</h4>
+                <p>$00.000</p>
+            </div>
+            <div class="col-3">
+                <img src="../img/espalda-vestido.jpg" class="img-producto" alt="Vestido negro de lentejuelas">
+                <h4>Título del producto</h4>
+                <p>$00.000</p>
+            </div>
+        </div>
+
+
         <!--Fin foto portada-->
 
         <!--Inicio filtros secundarios laterales-->
         <div class="col-sm-2">
-            <aside>
-                <h4>Categorías</h4>
 
-                <p>Tops</p>
-                <input type="checkbox" name="categorias" id="tops">
-
-                <p>Bottoms</p>
-                <input type="checkbox" name="categorias" id="bottoms">
-
-                <p>Accesorios</p>
-                <input type="checkbox" name="categorias" id="accesorios">
-            </aside>
         </div>
         <!--Fin filtros secundarios laterales-->
 
@@ -108,61 +157,19 @@
                 <div class="col-sm-10">
 
                     <section class="productos">
-                        <input type="search" name="busquedadeprenda" placeholder="Buscar">
+
 
 
                         <!--Inicio filtros principales de búsqueda-->
 
-                        <section>
-                            <h3>Ordenar por:</h3>
-                            <select name="filtros" id="filtro">
-                                <option value="destacados">Destacados</option>
-                                <option value="ofertas">Ofertas</option>
-                                <option value="precio-descendente">Precio descendente</option>
-                                <option value="precio-ascendente">Precio ascendente</option>
-                            </select>
-                        </section>
+
 
                         <!--Fin filtros principales de búsqueda-->
 
 
                         <!--Inicio catálogo-->
 
-                        <div class="row">
-                            <section>
-                                <div class="col-sm">
-                                    <img src="../img/1.jpeg" class="img-producto" alt="Blusa blanca">
-                                    <h4>Título del producto</h4>
-                                    <p>$00.000</p>
-                                </div>
-                            </section>
 
-                            <section>
-                                <div class="col-sm">
-                                    <img src="../img/rojo.jpg" class="img-producto" alt="Vestido rojo de noche">
-                                    <h4>Título del producto</h4>
-                                    <p>$00.000</p>
-                                </div>
-                            </section>
-
-                            <section>
-                                <div class="col-sm">
-                                    <img src="../img/espalda-vestido.jpg" class="img-producto"
-                                        alt="Vestido negro de lentejuelas">
-                                    <h4>Título del producto</h4>
-                                    <p>$00.000</p>
-                                </div>
-                            </section>
-
-                            <section>
-                                <div class="col-sm"></div>
-                                <img src="../img/portada1.jpg" class="img-producto" alt="Vestido magenta">
-                                <h4>Título del producto</h4>
-                                <p>$00.000</p>
-                        </div>
-                    </section>
-
-                    </section>
                 </div>
             </div>
             <!--Fin catálogo-->
