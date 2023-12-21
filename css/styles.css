@@ -110,9 +110,20 @@ h2 {
 
 /*Fin estilos Home*/
 /*Inicio estilos Categorías*/
+.card-portada-productos {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
 .img-producto {
   width: 400px;
   height: 600px;
+}
+
+.row {
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 /*Fin estilos Categorías*/
