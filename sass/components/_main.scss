@@ -1,16 +1,25 @@
 @import "../base/variables";
 @import "../base/maps";
 
+@mixin tamanio-imagen($ancho, $alto, $margin) {
+    width: $ancho;
+    height: $alto;
+    margin: $margin;
+}
 
 /*Inicio estilos Home*/
 
+.carousel {
+    margin-top: 4rem;
+}
+
 .carousel-inner {
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: -1rem;
 
     .carousel-item {
         width: 100;
-        height: 48rem;
+        height: 35rem;
         justify-content: center;
     }
 }
@@ -60,41 +69,111 @@
     }
 }
 
-
-
 /*Fin estilos Home*/
 
 
 /*Inicio estilos Categorías*/
 
-.card-portada-productos {
+.img-portada-categorias {
     margin-left: 5rem;
     margin-right: 5rem;
+    opacity: 90%;
+    @include tamanio-imagen(1370px, 700px, null)
+}
 
+.card-title {
+    color: #ffff !important;
+    font-size: 60px;
+    margin-top: 20%;
+    
 }
 
 .img-producto {
-    width: 400px;
-    height: 600px;
+    width: 300px;
+    height: 400px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .row {
-    margin-top: 2rem; 
+    margin-top: 4rem;
     margin-left: 5rem;
     margin-right: 5rem;
 }
 
+.aside {
+    margin: 2rem;
+}
+
+.producto {
+    margin-bottom: 4rem;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  
+    h4, p {
+      margin: 0;
+    }
+  }
 
 /*Fin estilos Categorías*/
 
 
 /*Inicio estilos Blog*/
 
-.container-blog {
-    column-count: 2;
+.container-fluid {
+    margin-top: 2rem;
+
+}
+
+.img-fluid {
+    @include tamanio-imagen(600px, 600px, 2rem);
+}
+
+.principal {
+    @include tamanio-imagen(900px, 1300px, 5rem);
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-4 {
+    margin-top: 45%;
+}
+
+.tit-entrada1 {
+    margin-top: 65%;
+    font-size: 30px;
+}
+
+.texto-entrada1 {
+    font-size: 16px;
+}
+
+.entrada-2 {
+    margin-bottom: 2rem;
+    border: 0.5px solid $color-secundario;
+}
+
+.margen-link-entrada-2 {
+    margin-bottom: 2rem;
+}
+
+
+.entrada-3 {
+    margin-top: 40%;
+}
+
+.img-entrada-3 {
+    margin-left: 3rem;
 }
 
 /*Fin estilos Blog*/
