@@ -189,18 +189,20 @@ h2 {
 }
 
 /*Fin estilos Categorías*/
+/*Inicio estilos Categorías*/
 .container-fluid {
   margin-top: 2rem;
 }
 
 .img-fluid {
+  object-fit: contain;
   width: 600px;
   height: 600px;
   margin: 2rem;
 }
 
 .principal {
-  margin: 1rem;
+  margin: 4rem;
 }
 
 .col-4 {
@@ -216,16 +218,18 @@ h2 {
 }
 
 .entrada-2 {
+  margin-top: 4rem;
   margin-bottom: 2rem;
   border: 0.5px solid rgba(0, 0, 0, 0.5058823529);
 }
 
 .margen-link-entrada-2 {
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
 .entrada-3 {
-  margin-top: 40%;
+  margin-top: 50%;
 }
 
 .img-entrada-3 {
@@ -237,7 +241,16 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50vh; /* Ajusta esto según tus necesidades */
+}
+@media (max-width: 500px) {
+  .vertical-center {
+    height: 40vh;
+  }
+}
+@media (max-width: 501px) {
+  .vertical-center {
+    height: 80vh;
+  }
 }
 
 /*Fin estilos Blog*/

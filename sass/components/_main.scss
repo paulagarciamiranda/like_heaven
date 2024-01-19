@@ -75,133 +75,144 @@
 /*Inicio estilos Categorías*/
 .img-portada-categorias {
     width: 100%;
-  }
-  
-  .card-title {
+}
+
+.card-title {
     color: white !important;
     font-size: 80px;
     margin-top: 25%;
-  }
-  
-  .buscar-productos {
+}
+
+.buscar-productos {
     margin-right: 3rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
     display: flex;
     justify-content: flex-end;
     width: 60%;
-  }
-  
-  .div-filtro-principal {
+}
+
+.div-filtro-principal {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-right: 4rem;
     margin-bottom: 1rem;
-  }
-  
-  .div-filtro-lateral {
+}
+
+.div-filtro-lateral {
     margin-top: 1rem;
-  }
-  
-  .ordenar-por {
+}
+
+.ordenar-por {
     font-size: 20px;
     margin: 2px;
-  }
-  
-  .img-producto {
+}
+
+.img-producto {
     width: 250px;
     height: 350px;
     margin-top: 2rem;
     margin-bottom: 1rem;
-  }
-  
-  .row-categorias {
+}
+
+.row-categorias {
     margin-top: 4rem;
     margin-left: 3rem;
     margin-right: 3rem;
-  }
-  
-  .aside {
+}
+
+.aside {
     margin: 2rem;
-  }
-  
-  .producto {
+}
+
+.producto {
     margin-bottom: 4rem;
     margin-left: 4rem;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
-        
+
     &:hover {
-    transform: scale(1.1);
-  }
+        transform: scale(1.1);
+    }
+
     .img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
 
     .p {
-    margin: 0;
-  }
+        margin: 0;
+    }
 }
-  /*Fin estilos Categorías*/
 
+/*Fin estilos Categorías*/
 
-  .container-fluid {
+/*Inicio estilos Categorías*/
+
+.container-fluid {
     margin-top: 2rem;
-  }
-  
-  .img-fluid {
+}
+
+.img-fluid {
+    object-fit: contain;
     width: 600px;
     height: 600px;
     margin: 2rem;
-  }
-  
-  .principal {
-  
-    margin: 1rem;
-   
-  }
-  
-  .col-4 {
+}
+
+.principal {
+    margin: 4rem;
+
+}
+
+.col-4 {
     margin-top: 45%;
-  }
-  
-  .tit-entrada1 {
+}
+
+.tit-entrada1 {
     font-size: 30px;
-  }
-  
-  .texto-entrada1 {
+}
+
+.texto-entrada1 {
     font-size: 16px;
-  }
-  
-  .entrada-2 {
+}
+
+.entrada-2 {
+    margin-top: 4rem;
     margin-bottom: 2rem;
     border: 0.5px solid rgba(0, 0, 0, 0.5058823529);
-  }
-  
-  .margen-link-entrada-2 {
+}
+
+.margen-link-entrada-2 {
+    margin-top: 2rem;
     margin-bottom: 2rem;
-  }
-  
-  .entrada-3 {
-    margin-top: 40%;
-  }
-  
-  .img-entrada-3 {
+}
+
+.entrada-3 {
+    margin-top: 50%;
+}
+
+.img-entrada-3 {
     margin-left: 3rem;
-  }
-  
-  .vertical-center {
+}
+
+.vertical-center {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50vh; /* Ajusta esto según tus necesidades */
-  }
-  
-  /*Fin estilos Blog*/
+
+    @media (max-width:500px) {
+        height: 40vh;
+    }
+    @media (max-width:501px) {
+        height: 80vh;
+    }
+}
+
+/*Fin estilos Blog*/
 
 
 /*Inicio estilos Contacto*/
