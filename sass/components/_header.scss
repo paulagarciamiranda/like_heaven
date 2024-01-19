@@ -1,0 +1,75 @@
+@import "../base/variables";
+@import "../base/maps";
+
+/*Estilos globales*/
+
+* {
+    font-family: 'Assistant', sans-serif;
+}
+
+a:hover {
+    color: $color-principal !important;
+    text-decoration: underline !important;
+}
+
+a:link {
+    color: $color-secundario;
+    text-decoration: none;
+}
+
+a:visited {
+    color: $color-principal
+}
+
+
+/*este no funciona*/
+a:active {
+    text-decoration: underline !important;
+}
+
+/*este no funciona*/
+
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+
+/*Fin estilos globales*/
+
+.navbar {
+    height: 140px !important;
+    padding: 1rem 3rem 1rem 4rem !important;
+
+    .navbar-fondo {
+        background-color: $color-footer;
+    }
+
+    .nav-item {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    @media (max-width:1600px) {
+     
+        .logo {
+            height: 4rem;
+            margin-right: 15%;
+        }
+    }
+    
+    @media (min-width:1601px) {
+    
+        .logo {
+            width: 3rem;
+            margin-right: 15%;
+        }
+    }
+}
+
